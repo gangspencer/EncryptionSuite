@@ -9,7 +9,7 @@
 
 		vm.login = login;
 
-		function login(){
+		function login(){ //TODO db validation for users
 			if(vm.user == "Devs" && vm.pass == "Admin"){
 				$window.location.href = "Home.html";
 			} else {
