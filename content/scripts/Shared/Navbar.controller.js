@@ -4,21 +4,39 @@
 	function NavbarController(){
 		var vm = this;
 
-		//Models
-		vm.open = false;
-
 		//Functions
-		vm.openNav = openNav;
+		vm.isActive = isActive;
+		vm.updateIndex = updateIndex;
+		vm.getPageName = getPageName;
+
+		//Models
+		vm.index = 0; //Indeces, home = 0, encryption = 1;
+		vm.HOME = 0; //Constants
+		vm.ENCRYPTION = 1; //Contstant
 
 
-		function openNav(){
-			console.log("open");
-			vm.open = true;
+		function isActive(index){
+			return vm.index == index;
 		}
 
-		function closeNav(){
-			vm.open = false;
+		function updateIndex(index){
+			vm.index = index;
 		}
 
+		function getPageName(index){
+			switch(vm.index){
+				case 0:
+					return "Home";
+					break;
+				case 1: 
+					return "Encryption";
+					break;
+				default:
+					return "ERROR";
+					break;
+			}
+
+		}
 	}
+
 })();
