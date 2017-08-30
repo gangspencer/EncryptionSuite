@@ -1,5 +1,12 @@
 {
   "name"    : "your-app",
   "version" : "0.1.0",
-  "main"    : "main.js"
+  "main"    : "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/gangspencer/EncryptionSuite",
+  "devDependencies": {
+    "electron": "~1.6.2"
+  }
 }
