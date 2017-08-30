@@ -13,7 +13,7 @@
 			if(vm.user == "Devs" && vm.pass == "Admin"){
 				$window.location.href = "Home.html";
 			} else {
-				alert("Invalid login")
+				alert("Invalid login, please try again")
 			}
 		}
 	}
