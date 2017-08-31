@@ -1,24 +1,12 @@
-<!DOCTYPE html>
-<html>
+<div id="HomeRecentActivity" ng-controller="HomeController as homeCtrl">
+	<div class="row" id="RecentFileUploadsBox" >
+		<div class="col-lg-11 col-md-11 col-sm-10 col-xs-11" id="RecentFileUploads">
 
-<head>
-	<script src="node_modules\angular\angular.js" type="text/javascript"></script>
-	<script src="node_modules\jquery\dist\jquery.js" onload="window.$ = window.jQuery = module.exports;"></script>
-	<script src="node_modules\bootstrap\dist\js\bootstrap.js"></script>
-	<script src="content\scripts\Application.module.js"></script>
-	<script src="content\scripts\Shared\Navbar.controller.js"></script>
-	
-	<link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="node_modules\font-awesome\css\font-awesome.css" type="text/css" />
-	<link rel="stylesheet" href="content\styles\Shared\Navbar.css" />
-</head>
-
-<body>
-
-<div ng-app="App">
-	<div ng-include="'./Navbar.html'"></div>
+		</div>
+	</div>
+	<br />
+	<div class="row" id="FileInformationBox">
+		<div class="col-lg-11 col-md-11 col-sm-10 col-xs-11" id="FileInformation">
+		</div>
+	</div>
 </div>
-
-</body>
-
-</html>

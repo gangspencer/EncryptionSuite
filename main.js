@@ -12,7 +12,7 @@ function createWindow () {
 
   // and load the login.html of the app.
   win.loadURL(url.format({
-    pathname: path.join(__dirname, 'Home.html'),
+    pathname: path.join(__dirname, 'Landing.html'),
     protocol: 'file:',
     slashes: true
   }))

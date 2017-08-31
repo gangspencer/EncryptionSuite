@@ -1,0 +1,21 @@
+#HomeRecentActivity {
+	height: 90vh;
+	margin-top: 25px;
+}
+
+
+#RecentFileUploadsBox {
+	height: 50%;
+}
+#RecentFileUploads {
+	height: 100%;
+	background: blue;
+}
+
+#FileInformationBox {
+	height: 50%;
+}
+#FileInformation {
+	height: 100%;
+	background: yellow;
+}
