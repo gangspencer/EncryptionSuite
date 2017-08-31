@@ -1,13 +1,19 @@
 <div id="HomeRecentActivity" ng-controller="HomeController as homeCtrl">
 	<div class="row ContentBox">
 		<div class="col-lg-11 col-md-11 col-sm-10 col-xs-11 InnerContentBox" id="RecentFileUploads">
-
+			<div class="Cards">
+				<ul class="list-inline">
+					<li ng-repeat="file in homeCtrl.sampleFiles" class="Card">
+						<span>{{file.FileName}}</span>
+					</li>
+				</ul>
+			</div>				
 		</div>
 	</div>
 	<br />
 	<div class="row ContentBox" id="FileInformationBox">
 		<div class="col-lg-11 col-md-11 col-sm-10 col-xs-11 InnerContentBox" id="FileInformation">
-		
+
 		</div>
 	</div>
 </div>
