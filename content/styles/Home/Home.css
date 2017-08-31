@@ -3,19 +3,18 @@
 	margin-top: 25px;
 }
 
-
-#RecentFileUploadsBox {
+.ContentBox {
+	border-radius: 10px;
 	height: 50%;
 }
+.InnerContentBox {
+	height: 100%;	
+}
+
 #RecentFileUploads {
-	height: 100%;
 	background: blue;
 }
 
-#FileInformationBox {
-	height: 50%;
-}
 #FileInformation {
-	height: 100%;
 	background: yellow;
 }
