@@ -16,33 +16,33 @@
 				FileCreationDate: 'Sql Date'
 			},
 			{
-				FileName: 'sample0.txt',
+				FileName: 'sample1.png',
 				FileSize: '1000 bytes',
-				FileExtension: '.txt',
+				FileExtension: '.png',
 				FileCreationDate: 'Sql Date'
 			},
 			{
-				FileName: 'sample0.txt',
+				FileName: 'sample3.c',
 				FileSize: '1000 bytes',
-				FileExtension: '.txt',
+				FileExtension: '.c',
 				FileCreationDate: 'Sql Date'
 			},
 			{
-				FileName: 'sample0.txt',
+				FileName: 'sample04.java',
 				FileSize: '1000 bytes',
-				FileExtension: '.txt',
+				FileExtension: '.java',
 				FileCreationDate: 'Sql Date'
 			},
 			{
-				FileName: 'sample0.txt',
+				FileName: 'sample5.cs',
 				FileSize: '1000 bytes',
-				FileExtension: '.txt',
+				FileExtension: '.cs',
 				FileCreationDate: 'Sql Date'
 			},
 			{
-				FileName: 'sample0.txt',
+				FileName: 'sample6.docx',
 				FileSize: '1000 bytes',
-				FileExtension: '.txt',
+				FileExtension: '.docx',
 				FileCreationDate: 'Sql Date'
 			}
 		];

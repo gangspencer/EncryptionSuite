@@ -36,26 +36,38 @@
 {
 	margin: 10px 20px 10px 20px;
 	border-radius: 4px;
-    border:1px solid black;
+    border:1px solid #e3e4e5;
     padding:0;
     height:240px;
     width: 200px;
     transition: height .4s;
+    background-color: #e5e5e5;
 }
 
 	.Card:hover {
-		border: 2px solid blue;
+		border: 2px solid #d1d1d1;
 		height: 250px;
 	}
 
 .CardContent {
-	transition: padding .4s;
+	margin: 50px 0px 50px 0px;
+	transition: padding .4s, height .4s;
+	background-color: white;
+	border-radius: 4px;
+	height: 140px;
 }
 
 	.Card:hover .CardContent {
 		padding-bottom: 5px;
 		padding-top: 5px;
+		height: 150px;
 	}
+
+.FileLabel {
+	margin-top: 50%;
+	margin-bottom: 50%;
+	font-size: 25px;
+}
 
 
 .list-inline {
