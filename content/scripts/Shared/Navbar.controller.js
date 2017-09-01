@@ -16,7 +16,6 @@
 
 
 		function isActive(index){
-			console.log(index);
 			return vm.index == index;
 		}
 

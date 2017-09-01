@@ -6,8 +6,14 @@
 		var vm = this;
 
 		//Function
+		vm.setFile = setFile;
+
+		function setFile(file){
+			vm.currentFile = file;
+		}
 
 		//Models
+		vm.currentFile = {};
 		vm.sampleFiles = [
 			{
 				FileName: 'sample0.txt',
